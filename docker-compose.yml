@@ -1,0 +1,7 @@
+homepage:
+  image: zouyapeng/hexo:latest
+  container_name: homepage
+  ports:
+    - "10030:4000"
+  volumes:
+    - /opt/HomePage:/hexo/HomePage
